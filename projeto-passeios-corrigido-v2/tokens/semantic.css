@@ -1,0 +1,68 @@
+/*
+  CONVENÇÃO ADOTADA:
+  - Tokens primitivos ficam em primitives.css e usam prefixo _ para indicar uso interno.
+  - Tokens semânticos abaixo indicam intenção de uso na interface.
+  - Componentes devem consumir preferencialmente tokens semânticos, mantendo as cores do site original.
+*/
+:root {
+  --color-bg-primary: var(--_color-bg-dark);
+  --color-bg-card: var(--_color-bg-card);
+  --color-bg-filter: var(--_color-bg-filter);
+  --color-bg-input: var(--_color-bg-input);
+  --color-bg-button-inactive: var(--_color-bg-button-inactive);
+  --color-bg-hover: var(--_color-bg-hover);
+  --color-border: var(--_color-border);
+  --color-border-hover: var(--_color-border-hover);
+  --color-action-primary: var(--_color-accent);
+  --color-action-primary-hover: var(--_color-accent-hover);
+  --color-action-primary-light: var(--_color-accent-light);
+  --color-text-primary: var(--_color-text-primary);
+  --color-text-secondary: var(--_color-text-secondary);
+  --color-text-muted: var(--_color-text-button);
+  --color-placeholder: var(--_color-placeholder);
+  --color-error: var(--_color-error);
+  --color-error-border: var(--_color-error-border);
+  --color-success: var(--_color-success);
+  --color-footer-bg: var(--_color-footer-bg);
+  --color-card-overlay-top: var(--_color-card-overlay-top);
+  --color-card-overlay-mid: var(--_color-card-overlay-mid);
+  --color-card-overlay-bottom: var(--_color-card-overlay-bottom);
+  --color-success-dark: var(--_color-success-dark);
+  --color-info-bg: var(--_color-info-bg);
+  --color-info-border: var(--_color-info-border);
+  --color-info-text: var(--_color-info-text);
+  --color-value-bg: var(--_color-value-bg);
+  --color-value-border: var(--_color-value-border);
+  --color-overlay: var(--_color-modal-backdrop);
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.25rem;
+  --radius-pill: 999px;
+  --shadow-card: var(--_shadow-card);
+  --shadow-card-hover: var(--_shadow-card-hover);
+  --shadow-accent: var(--_shadow-accent);
+  --shadow-accent-soft: var(--_shadow-accent-soft);
+  --shadow-header: var(--_shadow-header);
+  --shadow-accent-strong: var(--_shadow-accent-strong);
+  --shadow-success: var(--_shadow-success);
+
+  /* Aliases mantidos para preservar compatibilidade com o CSS original. */
+  --bg-dark: var(--color-bg-primary);
+  --bg-card: var(--color-bg-card);
+  --bg-filter: var(--color-bg-filter);
+  --border: var(--color-border);
+  --accent: var(--color-action-primary);
+  --accent-hover: var(--color-action-primary-hover);
+  --btn-inactive: var(--color-bg-button-inactive);
+  --btn-text: var(--color-text-muted);
+  --text-primary: var(--color-text-primary);
+  --text-secondary: var(--color-text-secondary);
+  --text-tag: var(--color-action-primary);
+  --radius-card: var(--radius-lg);
+  --radius-btn: var(--radius-sm);
+
+  /* Alias do material da aula 09, adaptado à cor do projeto para não trocar a paleta. */
+  --color-primary-500: var(--color-action-primary);
+}

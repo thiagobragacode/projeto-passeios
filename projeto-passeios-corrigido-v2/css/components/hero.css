@@ -1,0 +1,5 @@
+/* O hero do projeto é composto pelo header e pela descrição principal. */
+.header-desc {
+  max-width: 42rem;
+  margin-inline: auto;
+}

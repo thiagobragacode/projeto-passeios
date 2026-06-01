@@ -1,0 +1,81 @@
+.filter-btn,
+.btn,
+.btn-reserva,
+.qty-btn,
+.modal-close {
+  min-height: 44px;
+}
+
+.filter-btn {
+  padding: var(--space-2) var(--space-6);
+  border-radius: var(--radius-btn);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-button-inactive);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s, transform 0.15s;
+}
+
+.filter-btn:hover {
+  background: var(--color-bg-hover);
+  color: var(--color-text-primary);
+  border-color: var(--color-border-hover);
+  transform: translateY(-1px);
+}
+
+.filter-btn.active,
+.btn--primary {
+  background: var(--color-action-primary);
+  color: var(--color-text-primary);
+  border-color: var(--color-action-primary);
+  font-weight: var(--font-weight-bold);
+  box-shadow: var(--shadow-accent);
+}
+
+.btn--outline {
+  background: transparent;
+  color: var(--color-action-primary);
+  border: 1px solid var(--color-action-primary);
+}
+
+.btn--ghost {
+  background: transparent;
+  color: var(--color-text-muted);
+  border: 1px solid transparent;
+}
+
+.btn-reserva {
+  display: block;
+  width: 100%;
+  padding: var(--space-4);
+  background: linear-gradient(135deg, var(--color-action-primary), var(--color-action-primary-hover));
+  color: var(--color-text-primary);
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+  box-shadow: var(--shadow-accent-soft);
+}
+
+.btn-reserva:hover {
+  background: linear-gradient(135deg, var(--color-action-primary-light), var(--color-action-primary-hover));
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-accent-strong);
+}
+
+.btn-agendar {
+  margin-top: 0;
+}
+
+@media (max-width: 580px) {
+  .filter-btn {
+    flex: 1 1 10rem;
+    padding: var(--space-2) var(--space-4);
+  }
+}

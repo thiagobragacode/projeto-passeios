@@ -1,0 +1,39 @@
+/* Tokens primitivos: valores internos da identidade visual. */
+:root {
+  --_color-bg-dark: #0f1829;
+  --_color-bg-card: #111d30;
+  --_color-bg-filter: #162035;
+  --_color-bg-input: #0f1829;
+  --_color-bg-button-inactive: #1e2f4a;
+  --_color-bg-hover: #253550;
+  --_color-border: #1e2f4a;
+  --_color-border-hover: #2e4165;
+  --_color-accent: #f5a623;
+  --_color-accent-hover: #e09415;
+  --_color-accent-light: #f6b03a;
+  --_color-text-primary: #ffffff;
+  --_color-text-secondary: #8fa3be;
+  --_color-text-button: #c8d6ea;
+  --_color-placeholder: #4a6080;
+  --_color-error: #e07070;
+  --_color-error-border: #e05050;
+  --_color-success: #2ecc71;
+  --_color-footer-bg: #111827;
+  --_color-card-overlay-top: rgba(10, 18, 35, 0.05);
+  --_color-card-overlay-mid: rgba(10, 18, 35, 0.35);
+  --_color-card-overlay-bottom: rgba(10, 18, 35, 0.88);
+  --_color-success-dark: #27ae60;
+  --_color-info-bg: #1a2f5a;
+  --_color-info-border: #2a4580;
+  --_color-info-text: #8ab4f8;
+  --_color-value-bg: #0d2218;
+  --_color-value-border: #1a4a2e;
+  --_color-modal-backdrop: rgba(5, 10, 20, 0.82);
+  --_shadow-card: 0 8px 32px rgba(0, 0, 0, 0.45);
+  --_shadow-card-hover: 0 16px 48px rgba(0, 0, 0, 0.6);
+  --_shadow-accent: 0 4px 18px rgba(245, 166, 35, 0.35);
+  --_shadow-accent-soft: 0 4px 18px rgba(245, 166, 35, 0.3);
+  --_shadow-header: 0 10px 30px rgba(0, 0, 0, 0.18);
+  --_shadow-accent-strong: 0 8px 24px rgba(245, 166, 35, 0.4);
+  --_shadow-success: 0 6px 24px rgba(46, 204, 113, 0.35);
+}

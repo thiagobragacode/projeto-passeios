@@ -1,0 +1,31 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+}
+
+img, picture, video, canvas, svg, iframe {
+  max-width: 100%;
+}
+
+img, picture, video, canvas, iframe {
+  display: block;
+  height: auto;
+}
+
+button, input, textarea, select {
+  font: inherit;
+}
+
+ul[role='list'], ol[role='list'] {
+  list-style: none;
+}

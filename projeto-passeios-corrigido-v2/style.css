@@ -1,0 +1,22 @@
+/* ==========================================
+   VIAGENS PARTICULARES — CSS principal
+   Arquitetura: @layer + tokens + ITCSS
+   ========================================== */
+
+@layer tokens, reset, base, layout, components, utilities;
+
+@import url('./tokens/primitives.css') layer(tokens);
+@import url('./tokens/spacing.css') layer(tokens);
+@import url('./tokens/typography.css') layer(tokens);
+@import url('./tokens/semantic.css') layer(tokens);
+@import url('./css/reset.css') layer(reset);
+@import url('./css/base.css') layer(base);
+@import url('./css/layout.css') layer(layout);
+@import url('./css/components/navbar.css') layer(components);
+@import url('./css/components/hero.css') layer(components);
+@import url('./css/components/card.css') layer(components);
+@import url('./css/components/btn.css') layer(components);
+@import url('./css/components/modal.css') layer(components);
+@import url('./css/components/form.css') layer(components);
+@import url('./css/components/footer.css') layer(components);
+@import url('./css/utilities.css') layer(utilities);
